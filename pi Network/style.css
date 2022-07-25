@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* .nav {
+    position: fixed;
+    top: 0px;
+    z-index: 1030;
+} */
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1030;
+    height: 90px;
+    color: #fbb44a;
+    background: linear-gradient(0.25turn, #8C3590, #2C4982);
+}
+
+.navbar-brand {
+    margin-left: 120px;
+    color: #fbb44a;
+}
+
+.navbar-brand:hover {
+    color: #fbb44a;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: .770rem;
+    color: #ffffff;
+    margin: 0px 0 0 20px;
+}
+
+
+.nav-link:hover {
+
+    color: #fbb44a;
+    border-bottom: 1px solid#fbb44a;
+}
+
+.btn-highlight {
+    width: 142px;
+
+    border: 1px solid#fbb44a;
+    padding-top: 7px;
+    height: 36px;
+    text-align: center;
+
+
+}
+
+.btn-highlight:hover {
+    border: 1px solid#fbb44a;
+    padding-top: 7px;
+
+
+
+}
+
+.navbar-nav {
+    margin: 0 135px 0 0;
+    padding: 0 0 0 0;
+}
+
+.btn-sz {
+    padding: 10px 10px;
+}
+
+
+
+/* @media (max-width:995px) {
+
+    .navbar {
+        position: fixed;
+        margin-top: 1px;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        color: #fbb44a;
+        background: linear-gradient(0.25turn, #8C3590, #2C4982);
+    }
+
+
+
+
+
+} */
+
+/* //megida */
+
+.banner-caption {
+    background: linear-gradient(0.25turn, #8C3590, #2C4982);
+
+    width: 100%;
+    float: left;
+    height: auto;
+    padding: -1px 0 40px;
+
+
+}
+
+.hero-text {
+    width: 100%;
+    float: left;
+    height: auto;
+}
+
+.hero-text a {
+    animation-delay: 0.6s;
+}
+
+.hero-text h1 {
+    font-size: 2em;
+    color: #fff;
+    animation-delay: 0.2s;
+}
+
+.hero-text p {
+    margin: 0 0 30px;
+    animation-delay: 0.4s;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+
+
+
+.border-purple {
+    border: 5px solid #6D2B8A;
+    background-color: #8C3590;
+}
+
+
+
+
+.btn.btn-hero {
+    box-shadow: 30px 20px 80px black;
+    color: white;
+    font-weight: bold;
+    transition-property: background-color;
+    transition-duration: 0.45s;
+    width: 85%;
+    margin: 10px 0;
+}
+
+.btn.btn-round {
+    border-radius: 1000px;
+}
+
+.hero-text a {
+    animation-delay: 0.6s;
+}
+
+
+
+.background-orange {
+    border: 5px solid #6D2B8A;
+    background-color: #fbb44a;
+}
+
+.background-blue {
+    border: 5px solid #6D2B8A;
+    background-color: #433E88;
+}
+
+.btn {
+    font-size: 15px;
+    line-height: 26px;
+    padding: 14px 27px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.video .video-fulls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.video {
+    width: 100%;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+.hero-img {
+    border: 1px solid #fbb44a;
+}
+
+.bottom-image img {
+    border: none;
+    outline: none;
+    max-width: 100%;
+}
+
+.section-title {
+    width: 100%;
+    float: left;
+    height: auto;
+    margin: 0 0 70px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.section-title p {
+    display: block;
+    margin: 0 auto;
+    color: #7f2d92;
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+.features-text p {
+    font-size: 1.4em;
+    color: #7f2d92;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.block-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.block-action a {
+    text-decoration: none !important;
+}
+
+.custom-button {
+    border: 1px solid #fbb44a;
+    color: #6D2B8A;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+
+.img-block img {
+    height: 319.7px;
+    width: 500px;
+
+}
+
+.features-item {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    margin: 0 0 30px;
+
+}
+
+p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #777;
+    margin: 0 0 25px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 15px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+.fac-app {
+    background: linear-gradient(0.25turn, #8C3590, #2C4982);
+    margin: 100px 0 0 0;
+    padding: 135px;
+}
+
+.mob-app h2 {
+    color: #fbb44a;
+}
+
+.mob-app p {
+    color: #fff;
+}
+
+.f-triangle {
+    margin: -109px 0 0 0;
+}
+
+.f-triangle img {
+    width: 1349px;
+    height: 109.53px;
+}
+
+.cont-main {
+    margin-top: 100px;
+}
+
+.form-control {
+    height: 54px;
+    box-shadow: none !important;
+    padding: 10px 15px;
+    color: #333;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: #f3f3f3;
+    border: 1px solid #e1e1e1;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+
+.textarea-sz {
+    width: 730px;
+    height: 202px;
+
+}
+
+.form-send-button {
+    color: #7f2d92;
+    border: none;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    font-size: 20px;
+}
+
+#footer .social-media {
+    align-items: center;
+    text-align: center;
+    margin: 0 0 20px 450px;
+
+
+}
+
+.social-media li a {
+    font-size: 20px;
+    color: #aaa;
+}
+
+#footer .social-media li a {
+    font-size: 26px;
+    line-height: 26px;
+    display: inline-block;
+}
+
+#footer p {
+    margin: 0;
+    color: #fff;
+    opacity: 0.7;
+}
+
+#footer .links a {
+    color: #fff;
+    opacity: 0.7;
+}
+
+a+a {
+    margin-left: 20px;
+}
+
+a,
+a:active,
+a:focus,
+a:hover {
+    outline: none !important;
+    text-decoration: none;
+}
+
+#footer {
+    margin-top: 100px;
+    width: 100%;
+    float: left;
+    height: auto;
+    background: #1D0A26;
+    padding: 100px 0;
+}
+
+.social-media {
+    gap: 20px;
+
+    margin: 0 0 20px;
+    display: flex;
+}
+
+.download-banner {
+    position: fixed;
+    bottom: 0;
+    max-height: fit-content;
+    width: 100vw;
+    background-color: #ededed;
+    z-index: 20000;
+    padding: 10px;
+    border-top: 1px solid #ededed;
+}
+
+.download-banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-app {
+    margin-top: 20px;
+    text-align: center;
+    width: 109.23px;
+    height: 29px;
+    background-color: #fbb44a;
+    color: black;
+    font-weight: 900;
+}
+
+.download-app a {
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
